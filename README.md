@@ -51,7 +51,7 @@ CREATE TABLE EXERCICIOS
 	NOME_MATERIA	nvarchar(50)	not null		unique,
 	NOME_PROFESSOR	nvarchar(50)	not null		unique,
 	PRAZO_ENTREGA	DATE		    not null,
-	STATUS			char(08)		not null
+	STATUS		char(08)		not null
 );
 
 INSERT INTO EXERCICIOS

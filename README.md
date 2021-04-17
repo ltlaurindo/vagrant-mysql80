@@ -5,16 +5,19 @@
 ##### Exercicio:
 ###### Subir uma máquina virtual, usando Vagrant, com MySQL instalado e que esteja acessível no host da máquina na porta 3306. Enviar a URL Github do código. Atividade individual ou em grupo, vocês que definem.
 
-##### Box Utilizada
+##### Box Utilizada:
 Nome: jitendradpatel/mysql-8
 
-##### *Versão:* 1.0
+ *Versão:* 
+ 1.0
 
-###### *Descrição da VM utilizada:* Debian GNU/Linux 9 (stretch)
+ *Descrição da VM utilizada:* 
+Debian GNU/Linux 9 (stretch)
 
-###### *Descriçao do SGBD:* mysql  Ver 8.0.12 for Linux on x86_64 (MySQLCommunity Server - GPL)
+*Descriçao do SGBD:*
+mysql  Ver 8.0.12 for Linux on x86_64 (MySQLCommunity Server - GPL)
 
-###### *Para mais detalhes sobre a box, acesse:*
+##### *Para mais detalhes sobre a box, acesse:*
 [https://app.vagrantup.com/jitendradpatel/boxes/mysql-8]
 
 ##### Passo a passo: 

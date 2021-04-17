@@ -34,5 +34,5 @@ root
 Execute os comandos a seguir para criar um banco de dados, uma tabela, inserir dado e visualizar o mesmo
 
 
-
+testando criar meu bd aqui
 

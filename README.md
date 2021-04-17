@@ -22,20 +22,21 @@ https://app.vagrantup.com/jitendradpatel/boxes/mysql-8
 
 ##### **Passo a passo:**
 
-1. Faça o donwload do repositório: [https://github.com/ltlaurindo/vagrant-mysql80.git]
+1. Faça o donwload do repositório: 
+> https://github.com/ltlaurindo/vagrant-mysql80.git
 
 
 2. Para inicializar a maquina virtual execute o comando abaixo:
-<p> vagrant up </p>
+> vagrant up
 
-3. Execute o comando abaixo para acessar a maquina virtual via ssh
-<p> vagrant ssh mysql </p>
+3. Execute o comando a seguir para acessar a maquina virtual via ssh
+> vagrant ssh mysql 
 
 4. Execute o comando para entrar  no Mysql:
-<p> mysql -u root -p </p>
+> mysql -u root -p 
 
 5. Informe a senha:
-<p> root </p>
+> root
  
 6. Execute os comandos a seguir para criar um banco de dados:
 

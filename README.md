@@ -34,7 +34,7 @@
 11. Execute os comandos a seguir para criar um banco de dados:
 
 
-<p>CREATE DATABASE LTLVagrant;<br>
+> CREATE DATABASE LTLVagrant;
 USE LTLVagrant;
 CREATE TABLE Trabalho (
   ID mediumint(8) unsigned NOT NULL auto_increment, 

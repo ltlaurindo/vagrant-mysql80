@@ -34,15 +34,16 @@
 11. Execute os comandos a seguir para criar um banco de dados:
 
 
-CREATE DATABASE LTLVagrant;
-USE LTLVagrant;
-CREATE TABLE Trabalho (
-  ID mediumint(8) unsigned NOT NULL auto_increment,
-  materia varchar(100),
-  nomeProfessor varchar(100),
-  nota char(3)
-  PRIMARY KEY (`ID`)
-) AUTO_INCREMENT=1;
+<p>CREATE DATABASE LTLVagrant;<br>
+USE LTLVagrant;</p>
+<p>CREATE TABLE Trabalho ( <br>
+  ID mediumint(8) unsigned NOT NULL auto_increment, </p>
+ <p> materia varchar(100),<br>
+  nomeProfessor varchar(100),</p>
+  <p>nota char(3)<br>
+  PRIMARY KEY (`ID`) </p>
+<p> ) AUTO_INCREMENT=1;
+
 
 INSERT INTO Exercicio (materia,descricao,nomeProfessor,nota) VALUES ('Infrastructure and Cloud Computing','Joao Henrique','10');
 

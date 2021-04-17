@@ -40,30 +40,28 @@ https://app.vagrantup.com/jitendradpatel/boxes/mysql-8
  
 6. Execute os comandos a seguir para criar um banco de dados:
 
-
-> CREATE DATABASE MBA_2021;
-> USE MBA_2021;
->
-
->CREATE TABLE EXERCICIOS
->
-<p>(<BR>
->	COD_EXERCICIO			int						identity			>	primary key,
->	NOME_MATERIA			nvarchar(50)			not null			>	unique,
->	NOME_PROFESSOR			nvarchar(50)			not null			>	unique,
->	PRAZO_ENTREGA			DATE		     	not null,
->	STATUS					char(08)				not null
->);
+```sql
+CREATE DATABASE MBA_2021;
+USE MBA_2021;
 
 
->INSERT INTO EXERCICIOS
->VALUES 
-('Coordenação de Curso', 'Marcus Vinicius Almeida Silva','12/04/>2021','ENTREGUE'),
->('Workshop de Abertura On-line', 'Angela Valiera','12/04/2021',>'ENTREGUE'),
->('Infrastructure and Cloud Computing', 'Joao Henrique Victorino da >Silva','14/04/2021','PENDENTE');
+CREATE TABLE EXERCICIOS
+(
+	COD_EXERCICIO			int						identity				primary key,
+	NOME_MATERIA			nvarchar(50)			not null				unique,
+	NOME_PROFESSOR			nvarchar(50)			not null				unique,
+	PRAZO_ENTREGA			DATE		     	not null,
+	STATUS					char(08)				not null
+);
+
+INSERT INTO EXERCICIOS
+VALUES ('Coordenação de Curso', 'Marcus Vinicius Almeida Silva','12/04/2021','ENTREGUE'),
+('Workshop de Abertura On-line', 'Angela Valiera','12/04/2021','ENTREGUE'),
+('Infrastructure and Cloud Computing', 'Joao Henrique Victorino da Silva','14/04/2021','PENDENTE');
 
 
->SELECT * FROM EXERCICIOS;
+SELECT * FROM EXERCICIOS;
+```
 
 
 

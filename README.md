@@ -15,24 +15,35 @@
 ##### Para mais detalhes sobre a box, acesse:
 ##### https://app.vagrantup.com/jitendradpatel/boxes/mysql-8
 
-Passo a passo: 
-Faça o donwload do repositório: https://github.com/ltlaurindo/vagrant-mysql80.git
+1. Passo a passo: 
+2. Faça o donwload do repositório: https://github.com/ltlaurindo/vagrant-mysql80.git
 
 
-Para inicializar a maquina virtual execute o comando abaixo:
-vagrant up
+3. Para inicializar a maquina virtual execute o comando abaixo:
+4. vagrant up
 
-Execute o comando abaixo para acessar a maquina virtual via ssh
-vagrant ssh mysql
+5. Execute o comando abaixo para acessar a maquina virtual via ssh
+6. vagrant ssh mysql
 
-Execute o comando para entrar logar no Mysql via:
-mysql -u root -p
+7. Execute o comando para entrar logar no Mysql via:
+8. mysql -u root -p
 
-Informe a senha
-root
+9. Informe a senha
+10. root
 
-Execute os comandos a seguir para criar um banco de dados, uma tabela, inserir dado e visualizar o mesmo
+11. Execute os comandos a seguir para criar um banco de dados:
 
 
-testando criar meu bd aqui
+CREATE DATABASE LTLVagrant;
+USE LTLVagrant;
+CREATE TABLE Trabalho (
+  ID mediumint(8) unsigned NOT NULL auto_increment,
+  materia varchar(100),
+  nomeProfessor varchar(100),
+  nota char(3)
+  PRIMARY KEY (`ID`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO Exercicio (materia,descricao,nomeProfessor,nota) VALUES ('Infrastructure and Cloud Computing','Joao Henrique','10');
+
 

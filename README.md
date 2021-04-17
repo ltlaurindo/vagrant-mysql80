@@ -10,13 +10,13 @@
 
 ##### Descrição da VM utilizada: Debian GNU/Linux 9 (stretch)
 
-##### Descriçao do SGBD: mysql  Ver 8.0.12 for Linux on x86_64 (MySQL ##### Community Server - GPL)
+##### Descriçao do SGBD: mysql  Ver 8.0.12 for Linux on x86_64 (MySQLCommunity Server - GPL)
 
 ##### Para mais detalhes sobre a box, acesse:
-##### https://app.vagrantup.com/jitendradpatel/boxes/mysql-8
+##### [https://app.vagrantup.com/jitendradpatel/boxes/mysql-8]
 
 1. Passo a passo: 
-2. Faça o donwload do repositório: https://github.com/ltlaurindo/vagrant-mysql80.git
+2. Faça o donwload do repositório: [https://github.com/ltlaurindo/vagrant-mysql80.git]
 
 
 3. Para inicializar a maquina virtual execute o comando abaixo:

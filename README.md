@@ -41,7 +41,7 @@ https://app.vagrantup.com/jitendradpatel/boxes/mysql-8
 6. Execute os comandos a seguir para criar um banco de dados:
 
 
-> CREATE DATABASE LTLVagrant;
+CREATE DATABASE LTLVagrant;
 USE LTLVagrant;
 CREATE TABLE Trabalho (
   ID mediumint(8) unsigned NOT NULL auto_increment, 
@@ -50,6 +50,8 @@ CREATE TABLE Trabalho (
   nota char(3)
   PRIMARY KEY (`ID`) 
  ) AUTO_INCREMENT=1; 
+
+ teste lilian
 
 
 INSERT INTO Exercicio (materia,descricao,nomeProfessor,nota) VALUES ('Infrastructure and Cloud Computing','Joao Henrique','10');

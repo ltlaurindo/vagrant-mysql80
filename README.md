@@ -50,8 +50,8 @@ CREATE TABLE EXERCICIOS
 	COD_EXERCICIO	int			    identity		primary key,
 	NOME_MATERIA	nvarchar(50)	not null		unique,
 	NOME_PROFESSOR	nvarchar(50)	not null		unique,
-	PRAZO_ENTREGA	DATE		    not null,
-	STATUS		char(08)		not null
+	PRAZO_ENTREGA	DATE	   not null,
+	STATUS		char(08)	not null
 );
 
 INSERT INTO EXERCICIOS

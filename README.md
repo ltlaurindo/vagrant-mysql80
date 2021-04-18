@@ -47,7 +47,7 @@ USE MBA_2021;
 
 CREATE TABLE EXERCICIOS
 (
-	COD_EXERCICIO	int			    identity		primary key,
+	COD_EXERCICIO	int		identity		primary key,
 	NOME_MATERIA	nvarchar(50)	not null		unique,
 	NOME_PROFESSOR	nvarchar(50)	not null		unique,
 	PRAZO_ENTREGA	DATE	        not null,

@@ -64,8 +64,3 @@ VALUES
 SELECT * FROM EXERCICIOS;
 ```
 
-teste fim de tudo 
-
-
-
-

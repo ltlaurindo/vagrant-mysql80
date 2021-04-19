@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "mysql" do |node|
     config.vm.box = "jitendradpatel/mysql-8"
-    config.vm.network "forwarded_port", guest: 80, host: 3306
+    config.vm.network "forwarded_port", guest: 8080, host: 3306
     node.vm.network "public_network"
     node.vm.provider "virtualbox" do |vb|
       vb.name = "mysql"
